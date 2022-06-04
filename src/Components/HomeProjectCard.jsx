@@ -1,4 +1,5 @@
 import arrow from "../assets/shared/desktop/icon-right-arrow.svg";
+import { Link } from "react-router-dom";
 
 export const HomeProjectCards = ({ clName, header, link }) => {
   return (
@@ -6,10 +7,10 @@ export const HomeProjectCards = ({ clName, header, link }) => {
       <div className="overlay"></div>
       <div className="project-cards-text">
         <h3>{header}</h3>
-        <div className="project-cards-link-container">
+        <Link to={link} className="project-cards-link-container">
           <p>View Projects</p>
           <img src={arrow} alt="arrow" />
-        </div>
+        </Link>
       </div>
       <div className={clName}></div>
     </div>

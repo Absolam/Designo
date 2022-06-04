@@ -3,7 +3,24 @@
   margin: 0;
   padding: 0;
   border: none;
-  font-family: "League Spartan", sans-serif;
+  font-family: "Jost", sans-serif;
+}
+
+a:link {
+  color: var(--white);
+  text-decoration: none;
+}
+a:visited {
+  color: var(--white);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--white);
+  text-decoration: none;
+}
+a:active {
+  color: var(--white);
+  text-decoration: none;
 }
 
 :root {
@@ -15,7 +32,7 @@
   --light-peach: #ffad9b;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&display=swap");
 
 .header {
   display: flex;
@@ -34,6 +51,7 @@
 .header-logo-name h1 {
   letter-spacing: 4px;
   font-size: 24px;
+  color: var(--black);
 }
 
 .oval {
