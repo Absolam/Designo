@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/designo/static/css/main.1b8c55b6.css",
+    "main.js": "/designo/static/js/main.f8bedd96.js",
+    "static/media/image-hero-phone.png": "/designo/static/media/image-hero-phone.d0056b2ec005172d7dd6.png",
+    "static/media/image-graphic-design.jpg": "/designo/static/media/image-graphic-design.0cf15163a0420a5834f4.jpg",
+    "index.html": "/designo/index.html",
+    "static/media/icon-hamburger.svg": "/designo/static/media/icon-hamburger.a39ae0d1f45acff97a9650b13149528e.svg",
+    "main.1b8c55b6.css.map": "/designo/static/css/main.1b8c55b6.css.map",
+    "main.f8bedd96.js.map": "/designo/static/js/main.f8bedd96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b8c55b6.css",
+    "static/js/main.f8bedd96.js"
+  ]
+}
