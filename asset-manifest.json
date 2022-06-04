@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/designo/static/css/main.b74ce1b1.css",
-    "main.js": "/designo/static/js/main.79eaa054.js",
-    "static/media/image-hero-phone.png": "/designo/static/media/image-hero-phone.d0056b2ec005172d7dd6.png",
-    "static/media/image-graphic-design.jpg": "/designo/static/media/image-graphic-design.0cf15163a0420a5834f4.jpg",
-    "index.html": "/designo/index.html",
-    "static/media/icon-hamburger.svg": "/designo/static/media/icon-hamburger.a39ae0d1f45acff97a9650b13149528e.svg",
-    "static/media/icon-right-arrow.svg": "/designo/static/media/icon-right-arrow.7046cd1b7a4a6072a89674a25348f942.svg",
-    "main.b74ce1b1.css.map": "/designo/static/css/main.b74ce1b1.css.map",
-    "main.79eaa054.js.map": "/designo/static/js/main.79eaa054.js.map"
+    "main.css": "/Designo/static/css/main.5126835d.css",
+    "main.js": "/Designo/static/js/main.c87ec1e8.js",
+    "static/media/image-hero-phone.png": "/Designo/static/media/image-hero-phone.d0056b2ec005172d7dd6.png",
+    "static/media/image-graphic-design.jpg": "/Designo/static/media/image-graphic-design.0cf15163a0420a5834f4.jpg",
+    "index.html": "/Designo/index.html",
+    "static/media/icon-hamburger.svg": "/Designo/static/media/icon-hamburger.a39ae0d1f45acff97a9650b13149528e.svg",
+    "static/media/icon-right-arrow.svg": "/Designo/static/media/icon-right-arrow.7046cd1b7a4a6072a89674a25348f942.svg",
+    "main.5126835d.css.map": "/Designo/static/css/main.5126835d.css.map",
+    "main.c87ec1e8.js.map": "/Designo/static/js/main.c87ec1e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.b74ce1b1.css",
-    "static/js/main.79eaa054.js"
+    "static/css/main.5126835d.css",
+    "static/js/main.c87ec1e8.js"
   ]
 }
