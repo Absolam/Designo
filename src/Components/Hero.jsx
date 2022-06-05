@@ -1,5 +1,6 @@
 import "../Routes/Home/Home.css";
 import phone from "../assets/home/desktop/image-hero-phone.png";
+import { Button } from "./Button";
 
 export const Hero = () => {
   return (
@@ -11,9 +12,10 @@ export const Hero = () => {
           fully responsive websites, app design, and engaging brand experiences.
           Find out more about our services.
         </p>
+        <Button text="LEARN MORE" clName="button-hero" />
+        <img className="hero-phone" src={phone} alt="phone" />
+        <div className="hero-oval"></div>
       </div>
-      <img className="hero-phone" src={phone} alt="phone" />
-      <div className="hero-oval"></div>
     </div>
   );
 };

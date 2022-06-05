@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const HomeProjectCards = ({ clName, header, link }) => {
   return (
-    <div className="project-cards-container">
+    <div className="project-card-container">
       <div className="overlay"></div>
       <div className="project-cards-text">
         <h3>{header}</h3>

@@ -6,6 +6,10 @@
   font-family: "Jost", sans-serif;
 }
 
+body {
+  background-color: var(--white);
+}
+
 a:link {
   color: var(--white);
   text-decoration: none;
@@ -23,10 +27,14 @@ a:active {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 :root {
   --black: #1d1c1e;
   --dark-grey: #333136;
-  --white: #fff;
+  --white: #f4f4f4;
   --light-grey: #f1f3f5;
   --peach: #e7816b;
   --light-peach: #ffad9b;
