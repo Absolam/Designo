@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/Designo/static/css/main.f9292260.css",
-    "main.js": "/Designo/static/js/main.ac08b73b.js",
+    "main.css": "/Designo/static/css/main.8a98d899.css",
+    "main.js": "/Designo/static/js/main.1f05b1cb.js",
     "static/media/image-hero-phone.png": "/Designo/static/media/image-hero-phone.d0056b2ec005172d7dd6.png",
     "static/media/illustration-resourceful.svg": "/Designo/static/media/illustration-resourceful.c2ec0f612e93b9b2ed3f89bf9a0b9bf0.svg",
     "static/media/illustration-friendly.svg": "/Designo/static/media/illustration-friendly.18c1de56e8d2177eedbf22443fcbddb5.svg",
     "static/media/illustration-passionate.svg": "/Designo/static/media/illustration-passionate.f7cd8dfd325ddd5d325ad26bd5480ff6.svg",
     "static/media/image-graphic-design.jpg": "/Designo/static/media/image-graphic-design.0cf15163a0420a5834f4.jpg",
+    "static/media/icon-instagram.svg": "/Designo/static/media/icon-instagram.b5641a4848b5011df1a779677e6cb590.svg",
+    "static/media/icon-pinterest.svg": "/Designo/static/media/icon-pinterest.6109842c4e744e1dcd6d757aeb3f1c75.svg",
+    "static/media/bg-pattern-design-pages-intro-mobile.svg": "/Designo/static/media/bg-pattern-design-pages-intro-mobile.5d79d88c376d44514678.svg",
     "index.html": "/Designo/index.html",
+    "static/media/icon-twitter.svg": "/Designo/static/media/icon-twitter.78ae5ffebf2b2dcc8696aed9f69ccf47.svg",
+    "static/media/icon-facebook.svg": "/Designo/static/media/icon-facebook.f013d57affe6f0577cdc59c02813bab8.svg",
+    "static/media/icon-youtube.svg": "/Designo/static/media/icon-youtube.ef414cf2cbdeedef526c8011954fcffe.svg",
     "static/media/bg-pattern-hero-home.svg": "/Designo/static/media/bg-pattern-hero-home.7ee199204417fcc6aaee299b63336235.svg",
     "static/media/icon-hamburger.svg": "/Designo/static/media/icon-hamburger.a39ae0d1f45acff97a9650b13149528e.svg",
     "static/media/icon-right-arrow.svg": "/Designo/static/media/icon-right-arrow.7046cd1b7a4a6072a89674a25348f942.svg",
-    "main.f9292260.css.map": "/Designo/static/css/main.f9292260.css.map",
-    "main.ac08b73b.js.map": "/Designo/static/js/main.ac08b73b.js.map"
+    "main.8a98d899.css.map": "/Designo/static/css/main.8a98d899.css.map",
+    "main.1f05b1cb.js.map": "/Designo/static/js/main.1f05b1cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9292260.css",
-    "static/js/main.ac08b73b.js"
+    "static/css/main.8a98d899.css",
+    "static/js/main.1f05b1cb.js"
   ]
 }
