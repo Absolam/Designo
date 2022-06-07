@@ -7,7 +7,7 @@ export const HomeProjectCards = ({ clName, header, link }) => {
       <div className="overlay"></div>
       <div className="project-cards-text">
         <h3>{header}</h3>
-        <Link to={link} className="project-cards-link-container">
+        <Link to={`/Designo${link}`} className="project-cards-link-container">
           <p>View Projects</p>
           <img src={arrow} alt="arrow" />
         </Link>

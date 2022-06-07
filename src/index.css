@@ -8,6 +8,7 @@
 
 body {
   background-color: var(--white);
+  /* width: 100vw; */
 }
 
 a:link {
@@ -34,7 +35,7 @@ button {
 :root {
   --black: #1d1c1e;
   --dark-grey: #333136;
-  --white: #f4f4f4;
+  --white: #ffffff;
   --light-grey: #f1f3f5;
   --peach: #e7816b;
   --light-peach: #ffad9b;
@@ -48,6 +49,10 @@ button {
   align-items: center;
 
   padding: 35px 24px;
+}
+
+.header img {
+  cursor: pointer;
 }
 
 .header-logo-name {
@@ -74,4 +79,22 @@ button {
   height: 24px;
   width: 24px;
   border-radius: 50%;
+}
+
+.menu-modal {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.menu-modal-nav-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 30px;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.menu-modal-nav:hover {
+  color: var(--peach);
 }

@@ -1,0 +1,27 @@
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+
+  position: relative;
+  margin-bottom: 300px;
+}
+
+.locations-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.location-card h3 {
+  font-size: 32px;
+}
+
+.location-card-address {
+  margin: 20px 0;
+}
+
+.location-card-address h4 {
+  font-weight: bold;
+}

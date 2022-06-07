@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fdf3f0; */
+}
+
+.about h3 {
+  font-size: 32px;
+  margin: 0 0 10px 0;
+}
+
+.about-hero-img {
+  width: 100vw;
+}
+
+.about-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  margin: 100px 0;
+  background-color: var(--white);
+}
+
+.desc-card-container h3 {
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+.about-button {
+  background-color: var(--peach);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.about-modal-attach {
+  position: relative;
+  margin-bottom: 300px;
+}

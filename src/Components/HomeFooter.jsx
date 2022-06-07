@@ -3,19 +3,20 @@ import youtube from "../assets/shared/desktop/icon-youtube.svg";
 import twitter from "../assets/shared/desktop/icon-twitter.svg";
 import pinterest from "../assets/shared/desktop/icon-pinterest.svg";
 import instagram from "../assets/shared/desktop/icon-instagram.svg";
+import { Link } from "react-router-dom";
 
-export const HomeFooter = () => {
+export const HomeFooter = ({ clName }) => {
   return (
-    <div className="home-footer">
+    <div className={`home-footer ${clName}`}>
       <div className="footer-logo-name">
         <div className="oval" />
         <p>DESIGNO</p>
       </div>
       <div className="footer-bar"></div>
       <div className="footer-links">
-        <p>Our company</p>
-        <p>Locations</p>
-        <p>Contact</p>
+        <Link to="/Designo/about">Our company</Link>
+        <Link to="/Designo/locations">Locations</Link>
+        <Link to="/Designo/contact">Contact</Link>
       </div>
       <div className="footer-address-containers">
         <div className="footer-first-address">
