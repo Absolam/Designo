@@ -25,3 +25,75 @@
 .location-card-address h4 {
   font-weight: bold;
 }
+
+@media only screen and (min-width: 600px) {
+  .locations {
+    gap: 100px;
+  }
+
+  .locations-card-container {
+    width: 90vw;
+    gap: 30px;
+  }
+
+  .locations-card-container img {
+    border-radius: 15px;
+    height: 326px;
+    object-fit: cover;
+  }
+
+  .location-card {
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: flex-start;
+  }
+
+  .location-card-container {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+  }
+
+  .location-card-address {
+    margin: 0;
+    text-align: start;
+  }
+
+  .location-card-contact {
+    margin: 0;
+    text-align: start;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .locations {
+    margin-top: 50px;
+  }
+
+  .locations-card-container {
+    flex-direction: row;
+    width: 80vw;
+  }
+
+  .locations-card-container-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .location-card-container {
+    gap: 100px;
+  }
+
+  .location-card {
+    height: auto;
+    width: 100%;
+    padding-left: 80px;
+    gap: 20px;
+  }
+
+  .location-card h3 {
+    font-size: 42px;
+  }
+}

@@ -5,19 +5,22 @@ import pinterest from "../assets/shared/desktop/icon-pinterest.svg";
 import instagram from "../assets/shared/desktop/icon-instagram.svg";
 import { Link } from "react-router-dom";
 
-export const HomeFooter = ({ clName }) => {
+export const HomeFooter = ({ clName, width }) => {
   return (
     <div className={`home-footer ${clName}`}>
-      <div className="footer-logo-name">
-        <div className="oval" />
-        <p>DESIGNO</p>
+      <div className="footer-logo-name-container">
+        <div className="footer-logo-name">
+          <div className="oval" />
+          <p>DESIGNO</p>
+        </div>
+        {width < 600 && <div className="footer-bar"></div>}
+        <div className="footer-links">
+          <Link to="/Designo/about">Our company</Link>
+          <Link to="/Designo/locations">Locations</Link>
+          <Link to="/Designo/contact">Contact</Link>
+        </div>
       </div>
-      <div className="footer-bar"></div>
-      <div className="footer-links">
-        <Link to="/Designo/about">Our company</Link>
-        <Link to="/Designo/locations">Locations</Link>
-        <Link to="/Designo/contact">Contact</Link>
-      </div>
+      {width > 600 && <div className="footer-bar"></div>}
       <div className="footer-address-containers">
         <div className="footer-first-address">
           <p className="footer-address-bold">Designo Central Office</p>

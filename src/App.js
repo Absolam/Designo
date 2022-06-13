@@ -11,14 +11,37 @@ import { Contact } from "./Routes/Contact/Contact";
 
 function App() {
   const [menuModal, setMenuModal] = useState(false);
-  const [width, setWidth] = useState();
+  const [width, setWidth] = useState(window.innerWidth);
   const [canada, setCanada] = useState(false);
   const [australia, setAustralia] = useState(false);
   const [unitedKingdom, setUnitedKingdom] = useState(false);
 
   useEffect(() => {
-    setWidth(window.innerWidth);
+    const debouncedHandleResize = debounce(function windowChange() {
+      setWidth(window.innerWidth);
+      console.log(width);
+    }, 100);
+
+    window.addEventListener("resize", debouncedHandleResize);
+
+    return (_) => {
+      window.removeEventListener("resize", debouncedHandleResize);
+    };
   });
+
+  function debounce(fn, ms) {
+    let timer;
+
+    return (_) => {
+      clearTimeout(timer);
+
+      timer = setTimeout((_) => {
+        timer = null;
+
+        fn.apply(this, arguments);
+      }, ms);
+    };
+  }
 
   return (
     <div className="App">

@@ -4,7 +4,7 @@ import { HomeFooter } from "../../Components/HomeFooter";
 import { MenuModal } from "../../Components/MenuModal";
 import { useEffect } from "react";
 
-export const Home = ({ menuModal, setMenuModal }) => {
+export const Home = ({ menuModal, setMenuModal, width }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = "Designo | Home";
@@ -13,9 +13,9 @@ export const Home = ({ menuModal, setMenuModal }) => {
   return (
     <div className="home-container">
       {menuModal && <MenuModal />}
-      <Hero />
-      <HomeSections />
-      <HomeFooter />
+      <Hero width={width} />
+      <HomeSections width={width} />
+      <HomeFooter width={width} />
     </div>
   );
 };

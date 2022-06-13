@@ -4,6 +4,15 @@
   /* background-color: #fdf3f0; */
 }
 
+.about-hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-hero-text {
+  padding: 20px;
+}
+
 .about h3 {
   font-size: 32px;
   margin: 0 0 10px 0;
@@ -11,6 +20,23 @@
 
 .about-hero-img {
   width: 100vw;
+}
+
+.hero-about {
+  width: 100vw;
+  height: 320px;
+
+  background-color: var(--peach);
+  color: var(--white);
+
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-cards {
@@ -38,4 +64,103 @@
 .about-modal-attach {
   position: relative;
   margin-bottom: 300px;
+}
+
+@media only screen and (min-width: 600px) {
+  .about {
+    align-items: center;
+    margin-top: 50px;
+    /* gap: 100px; */
+  }
+
+  .about-hero-container {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 90vw;
+    height: 640px;
+    padding: 0;
+  }
+
+  .about-hero-text {
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 60%;
+  }
+
+  .about-hero-text h3 {
+    font-size: 48px;
+  }
+
+  .about-hero-img {
+    width: 100%;
+    height: 40%;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+  }
+
+  .projects-card-text {
+    border-radius: 0;
+  }
+
+  .hero-about {
+    border-radius: 0 0 15px 15px;
+    height: 50%;
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .about {
+    gap: 100px;
+  }
+
+  .about-hero-container {
+    max-width: 80vw;
+    flex-direction: row;
+    height: auto;
+  }
+
+  .hero-about .hero-projects-text {
+    padding: 0 100px;
+    align-items: flex-start;
+  }
+
+  .hero-about {
+    width: 80vw;
+    height: auto;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .about-hero-img {
+    height: auto;
+    border-radius: 0 15px 15px 0;
+  }
+
+  .hero-projects-text .about-text-align {
+    text-align: left;
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-hero-text {
+    text-align: left;
+    padding: 20px 70px;
+    border-radius: 0 15px 15px 0;
+  }
+
+  .about-hero-img-reverse {
+    border-radius: 15px 0 0 15px;
+  }
+
+  .about-cards {
+    flex-direction: row;
+    width: 80vw;
+  }
+
+  .about-modal-attach {
+    margin-bottom: 200px;
+  }
 }

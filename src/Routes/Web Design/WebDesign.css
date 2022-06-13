@@ -86,8 +86,158 @@
   border-radius: 0px 0px 15px 15px;
 }
 
+/* .project-card-text:hover {
+  background-color: var(--peach);
+  color: var(--white);
+} */
+
 .project-card-text h3 {
   color: var(--peach);
   font-size: 20px;
   font-weight: 500;
+}
+
+.project-cards-grid {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-cards-web-container {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-cards-app-container {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-cards-graphic-container {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  .hero-projects {
+    max-width: 90vw;
+    height: 252px;
+    border-radius: 15px;
+  }
+
+  .hero-projects-text {
+    padding: 0 50px;
+  }
+
+  .hero-projects-text h2 {
+    font-size: 48px;
+  }
+
+  .project-card {
+    width: 90vw;
+    max-width: 90vw;
+    flex-direction: row;
+  }
+
+  .project-card img {
+    width: 50%;
+    border-radius: 15px 0 0 15px;
+  }
+
+  .project-card-text {
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    border-radius: 0 15px 15px 0;
+  }
+
+  .project-cards-grid {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-cards-web-container {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-cards-app-container {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-cards-graphic-container {
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .web-design-page {
+    /* align-items: center; */
+    gap: 100px;
+  }
+
+  .hero-projects {
+    width: 80vw;
+  }
+
+  .hero-projects-text p {
+    width: 60%;
+  }
+
+  .project-card {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .project-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    width: 80vw;
+  }
+
+  .project-card {
+    flex-direction: column;
+  }
+
+  .project-card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+
+  .project-card-text {
+    height: 150px;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .project-cards-web-container {
+    width: 80vw;
+    display: grid;
+    grid-template-areas: "app graphic";
+    gap: 50px;
+  }
+
+  .project-cards-app-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    /* grid-template-areas: "web graphic"; */
+    gap: 50px;
+  }
+
+  .project-cards-graphic-container {
+    width: 80vw;
+    display: grid;
+    grid-template-areas: "app web";
+    gap: 50px;
+  }
 }

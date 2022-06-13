@@ -12,7 +12,7 @@ import campImg from "../../assets/web-design/desktop/image-camp.jpg";
 import { MenuModal } from "../../Components/MenuModal";
 import { useEffect } from "react";
 
-export const WebDesign = ({ menuModal, setMenuModal }) => {
+export const WebDesign = ({ menuModal, setMenuModal, width }) => {
   useEffect(() => {
     window.scrollTo(0, 0);
     document.title = "Designo | Web Design";
@@ -25,47 +25,56 @@ export const WebDesign = ({ menuModal, setMenuModal }) => {
         <HeroProjects
           header="Web Design"
           body="We build websites that serve as powerful marketing tools and bring memorable brand experiences."
+          clName="hero-projects"
         />
-        <ProjectCard
-          img={expressImg}
-          header="EXPRESS"
-          body="A multi-carrier shipping website for ecommerce businesses"
-        />
-        <ProjectCard
-          img={transferImg}
-          header="TRANSFER"
-          body="Site for low-cost money transfers and sending money within seconds"
-        />
-        <ProjectCard
-          img={photonImg}
-          header="PHOTON"
-          body="A state-of-the-art music player with high-resolution audio and DSP effects"
-        />
-        <ProjectCard
-          img={builderImg}
-          header="BUILDER"
-          body="Connects users with local contractors based on their location"
-        />
-        <ProjectCard
-          img={blogrImg}
-          header="BLOGR"
-          body="Blogr is a platform for creating an online blog or publication"
-        />
-        <ProjectCard
-          img={campImg}
-          header="CAMP"
-          body="Get expert training in coding, data, design, and digital marketing"
-        />
-        <HomeProjectCards
-          header="App Desgin"
-          clName="project-cards project-card-app"
-          link="/app-design"
-        />
-        <HomeProjectCards
-          header="Graphic Desgin"
-          clName="project-cards project-card-graphic"
-          link="/graphic-design"
-        />
+        <div className="project-cards-grid">
+          <ProjectCard
+            img={expressImg}
+            header="EXPRESS"
+            body="A multi-carrier shipping website for ecommerce businesses"
+          />
+          <ProjectCard
+            img={transferImg}
+            header="TRANSFER"
+            body="Site for low-cost money transfers and sending money within seconds"
+          />
+          <ProjectCard
+            img={photonImg}
+            header="PHOTON"
+            body="A state-of-the-art music player with high-resolution audio and DSP effects"
+          />
+          <ProjectCard
+            img={builderImg}
+            header="BUILDER"
+            body="Connects users with local contractors based on their location"
+          />
+          <ProjectCard
+            img={blogrImg}
+            header="BLOGR"
+            body="Blogr is a platform for creating an online blog or publication"
+          />
+          <ProjectCard
+            img={campImg}
+            header="CAMP"
+            body="Get expert training in coding, data, design, and digital marketing"
+          />
+        </div>
+        <div className="project-cards-web-container">
+          <HomeProjectCards
+            header="App Design"
+            clName="project-cards project-card-app"
+            link="/app-design"
+            clName2="project-card-sizing-fix project-app-design"
+            width={width}
+          />
+          <HomeProjectCards
+            header="Graphic Design"
+            clName="project-cards project-card-graphic"
+            link="/graphic-design"
+            clName2="project-card-sizing-fix project-graphic-design"
+            width={width}
+          />
+        </div>
         <GetInTouchModal />
       </div>
       <HomeFooter />
