@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Designo/static/css/main.58de4a4a.css",
-    "main.js": "/Designo/static/js/main.7486f83c.js",
+    "main.js": "/Designo/static/js/main.1f3cedcb.js",
     "static/media/image-change.jpg": "/Designo/static/media/image-change.3051c97c1dcc2c751755.jpg",
     "static/media/image-boxed-water.jpg": "/Designo/static/media/image-boxed-water.9348f4ace8db6ac37e27.jpg",
     "static/media/image-photon.jpg": "/Designo/static/media/image-photon.02f662d755840ae8aad5.jpg",
@@ -44,10 +44,10 @@
     "static/media/icon-hamburger.svg": "/Designo/static/media/icon-hamburger.a39ae0d1f45acff97a9650b13149528e.svg",
     "static/media/icon-right-arrow.svg": "/Designo/static/media/icon-right-arrow.7046cd1b7a4a6072a89674a25348f942.svg",
     "main.58de4a4a.css.map": "/Designo/static/css/main.58de4a4a.css.map",
-    "main.7486f83c.js.map": "/Designo/static/js/main.7486f83c.js.map"
+    "main.1f3cedcb.js.map": "/Designo/static/js/main.1f3cedcb.js.map"
   },
   "entrypoints": [
     "static/css/main.58de4a4a.css",
-    "static/js/main.7486f83c.js"
+    "static/js/main.1f3cedcb.js"
   ]
 }
